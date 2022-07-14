@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background: url('../images/login_bg.jpg') no-repeat center;
+    background-size: cover;
+}
+
+body {
+    position: relative;
+    padding-top: 30px;
+}
+
+.login-registor {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 270px;
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 0 20px;
+}
+
+.login-registor .title {
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.layui-form-item {
+    position: relative;
+    margin-bottom: 24px;
+}
+
+.layui-form .layui-form-item:nth-last-child(-n+2) {
+    margin-bottom: 0px;
+}
+
+.layui-form-item .layui-icon {
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    transform: translate(0, -50%);
+}
+
+.layui-form-item input,
+.layui-form-item button {
+    height: 40px;
+}
+
+.layui-form-item input {
+    padding-left: 30px;
+    font-size: 16px;
+}
+
+.layui-form-item input::placeholder {
+    font-size: 12px;
+    color: #bfbfbf;
+}
+
+.login-registor {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-registor .layui-form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.login-registor .formRegistor {
+    display: none;
+}
+
+.layui-form .layui-form-item:nth-last-child(1) {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.layui-form a {
+    display: inline-block;
+    color: #1890ff;
+    font-size: 12px;
+}
