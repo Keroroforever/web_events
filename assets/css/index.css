@@ -12,6 +12,8 @@ a {
     height: 60px;
     text-align: center;
     line-height: 60px;
+    user-select: none;
+    border-bottom: 1px solid #282b33;
 }
 
 .textAvater {
