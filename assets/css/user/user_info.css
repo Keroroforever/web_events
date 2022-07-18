@@ -1,0 +1,12 @@
+body {
+    padding: 15px;
+    background-color: #f0f2f5;
+}
+
+.layui-input {
+    width: 500px;
+}
+
+input[name="username"] {
+    background-color: #f5f5f5;
+}

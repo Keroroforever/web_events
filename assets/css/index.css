@@ -46,6 +46,13 @@ a {
 }
 
 
+/* 侧边滚动条 */
+
+.layui-body {
+    overflow: hidden;
+}
+
+
 /* 底部固定区域 */
 
 .layui-footer {
