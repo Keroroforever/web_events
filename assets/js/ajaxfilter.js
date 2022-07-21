@@ -1,5 +1,5 @@
 $.ajaxPrefilter(function(options) {
-    let url = 'http://www.liulongbin.top:3007'
+    let url = 'http://big-event-api-t.itheima.net'
     options.url = url + options.url
 
     //判断是否需要携带headers
